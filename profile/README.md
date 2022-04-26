@@ -1,4 +1,3 @@
-# Certe Medical Epidemiology
 
 <div style="position: relative; height: 410px;">
   <a href="https://certe-medical-epidemiology.github.io/certedata/" target="_blank">
@@ -34,4 +33,26 @@
 
 These are R packages developed by [**Certe**](https://www.certe.nl), a non-profit medical laboratory in the Northern Netherlands that provides routine diagnostic tests for clinical chemistry and clinical microbiology, as well as medical logistics and a thrombosis service. Their department of Medical Epidemiology, which developed this R package, conducts (and develops new methods for) medical data analyses, for both routine workflows and scientific research.
 
-For all our packages, please visit [our GitHub organisation overview](https://github.com/certe-medical-epidemiology). Our R packages are not on CRAN since their use is primarily intended for own staff, but they are publicly available to support open science.
+Our R packages are not on CRAN since their use is primarily intended for own staff, but they are publicly available to support open science.
+
+### Install
+
+All our R packages are published [here at R-universe](https://certe-medical-epidemiology.r-universe.dev), allowing anyone to install and update the packages using common methods, such as the RStudio menu bar or `install.packages()`. To add the Certe Medical Epidemiology R-universe to your existing repositories, run:
+
+```r
+options(repos = c(
+  CerteMedEpi = "https://certe-medical-epidemiology.r-universe.dev",
+  options()$repos)
+```
+
+You can now install any Certe R package, e.g.:
+
+```r
+# our 'loader package' certedata installs all Certe R packages this way:
+install.packages("certedata", dependencies = TRUE)
+
+# or install a specific package:
+install.packages("certegis")
+install.packages("certeplot2")
+install.packages("certestats")
+```
