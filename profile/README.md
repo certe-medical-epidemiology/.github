@@ -31,7 +31,7 @@
   </a>
 </div>
 
-These are R packages developed by [**Certe**](https://www.certe.nl), a non-profit medical laboratory in the Northern Netherlands that provides routine diagnostic tests for clinical chemistry and clinical microbiology, as well as medical logistics and a thrombosis service. Their department of Medical Epidemiology, which developed this R package, conducts (and develops new methods for) medical data analyses, for both routine workflows and scientific research.
+These are R packages developed by [**Certe**](https://www.certe.nl), a non-profit medical laboratory in the Northern Netherlands that provides routine diagnostic tests for clinical chemistry and clinical microbiology, as well as medical logistics and a thrombosis service. Their department of Medical Epidemiology, which developed these R packages, conducts (and develops new methods for) medical data analyses, for both routine workflows and scientific research.
 
 Our R packages are not on CRAN since their use is primarily intended for own staff, but they are publicly available to support open science. All our R packages are free to use and licensed under the [GNU General Public License v2.0 (GPL-2)](https://github.com/certe-medical-epidemiology/.github/blob/main/LICENSE.md).
 
